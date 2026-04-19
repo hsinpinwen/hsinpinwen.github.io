@@ -55,5 +55,5 @@ languageCode = "en-us"
 title = "Hsinpin Wen"
 
 # Important for GitHub Pages
-relativeURLs = false
+relativeURLs = true
 canonifyURLs = false
