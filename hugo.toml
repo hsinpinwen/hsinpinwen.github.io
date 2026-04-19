@@ -48,3 +48,12 @@ theme = "gokarna"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+# GitHub Pages configuration
+baseURL = "https://hsinpinwen.github.io/"
+languageCode = "en-us"
+title = "Hsinpin Wen"
+
+# Important for GitHub Pages
+relativeURLs = true
+canonifyURLs = false
