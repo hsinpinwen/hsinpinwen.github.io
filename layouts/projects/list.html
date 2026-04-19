@@ -1,0 +1,120 @@
+{{ define "main" }}
+<main class="projects-page">
+    <h1 style="text-align: center;">{{ .Title }}</h1>
+    
+    <div class="projects-grid">
+        {{ range .Pages }}
+        <div class="project-card">
+            
+            {{ if .Params.image }}
+            <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="project-image">
+            {{ end }}
+            
+            <h2 class="project-title">{{ .Title }}</h2>
+            
+            {{ with .Params.github }}
+            <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="project-link">
+                GitHub
+            </a>
+            {{ end }}
+            
+            <p class="project-description">{{ .Description }}</p>
+        </div>
+        {{ end }}
+    </div>
+</main>
+
+<style>
+
+/* PAGE WIDTH (BALANCED) */
+.projects-page {
+    max-width: 95%;  /* uses 95% of viewport width */
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+@media (min-width: 1920px) {
+    .projects-page {
+        max-width: 1800px;  /* cap it on ultra-wide screens */
+    }
+}
+
+/* RESPONSIVE GRID */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2.5rem;
+    margin-top: 2rem;
+}
+
+/* CARD */
+.project-card {
+    background: rgb(var(--light-primary-color));
+    color: var(--light-text-color);
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+/* IMAGE */
+.project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* TEXT */
+.project-title {
+    margin: 1rem 0 0.25rem 0;
+    font-size: 1.1rem;
+}
+
+.project-link {
+    display: inline-block;
+    margin-bottom: 0.25rem;
+    font-size: 0.85rem;
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+.project-description {
+    line-height: 1.5;
+    margin-top: 0.25rem;
+    font-size: 0.9rem;
+}
+
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+    .project-card {
+        background: rgb(var(--dark-primary-color));
+        color: var(--dark-text-color);
+    }
+
+    .project-link {
+        color: #66b3ff;
+    }
+}
+
+/* RESPONSIVE PADDING */
+@media (max-width: 900px) {
+    .projects-page {
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .projects-page {
+        padding: 0 1rem;
+    }
+}
+
+</style>
+{{ end }}

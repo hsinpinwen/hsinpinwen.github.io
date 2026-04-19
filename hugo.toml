@@ -1,0 +1,50 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Hsinpin Wen"
+theme = "gokarna"
+
+[params]
+  avatarURL = "/images/profile.jpg"
+  description = "Incoming ScM Biostatistics at Johns Hopkins University"
+  socialIcons = [
+      {name = "linkedin", url = "https://www.linkedin.com/in/hsinpinwen/"},
+      {name = "email", url = "mailto:wenhsinpin@gmail.com"},
+      {name = "github", url = "https://github.com/hsinpinwen"},
+      {name = "orcid", url = "https://orcid.org/0009-0007-8321-7764"},
+      {name = "strava", url = "https://www.strava.com/athletes/119130650"}
+    ]
+  customCSS = ["css/custom.css"]
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+    pre = "<span data-feather='home'></span>"
+
+    [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "/cv/hsinpinwen_cv.pdf"
+    weight = 2
+    pre = "<span data-feather='file-text'></span>"
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+    pre = "<span data-feather='codesandbox'></span>"
+
+  [[menu.main]]
+    identifier = "posters"
+    name = "Posters"
+    url = "/posters/"
+    weight = 4
+    pre = "<span data-feather='map'></span>"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
