@@ -2,28 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hsinpinwen.github.io/projects/194_final/</loc>
+    <loc>http://localhost:1313/projects/194_final/</loc>
   </url><url>
-    <loc>https://hsinpinwen.github.io/projects/194_midterm/</loc>
+    <loc>http://localhost:1313/projects/194_midterm/</loc>
   </url><url>
-    <loc>https://hsinpinwen.github.io/projects/wolf/</loc>
+    <loc>http://localhost:1313/projects/wolf/</loc>
   </url><url>
-    <loc>https://hsinpinwen.github.io/projects/water/</loc>
+    <loc>http://localhost:1313/projects/water/</loc>
   </url><url>
-    <loc>https://hsinpinwen.github.io/projects/tiger/</loc>
+    <loc>http://localhost:1313/projects/tiger/</loc>
   </url><url>
-    <loc>https://hsinpinwen.github.io/projects/plane/</loc>
+    <loc>http://localhost:1313/projects/plane/</loc>
   </url><url>
-    <loc>https://hsinpinwen.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://hsinpinwen.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://hsinpinwen.github.io/posters/</loc>
+    <loc>http://localhost:1313/posters/</loc>
   </url><url>
-    <loc>https://hsinpinwen.github.io/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
   </url><url>
-    <loc>https://hsinpinwen.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>https://hsinpinwen.github.io/posters/water_potential/</loc>
+    <loc>http://localhost:1313/posters/water_potential/</loc>
   </url>
 </urlset>
