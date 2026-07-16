@@ -8,7 +8,7 @@ theme = "gokarna"
   description = "Incoming ScM Biostatistics at Johns Hopkins University"
   socialIcons = [
       {name = "linkedin", url = "https://www.linkedin.com/in/hsinpinwen/"},
-      {name = "email", url = "mailto:wenhsinpin@gmail.com"},
+      {name = "email", url = "mailto:hwen15@jh.edu"},
       {name = "github", url = "https://github.com/hsinpinwen"},
       {name = "orcid", url = "https://orcid.org/0009-0007-8321-7764"},
       {name = "strava", url = "https://www.strava.com/athletes/119130650"}
