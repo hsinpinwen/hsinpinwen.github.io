@@ -5,7 +5,7 @@ theme = "gokarna"
 
 [params]
   avatarURL = "/images/profile.jpg"
-  description = "Incoming ScM Biostatistics at Johns Hopkins University"
+  description = "ScM Biostatistics Candidate at Johns Hopkins Bloomberg School of Public Health"
   socialIcons = [
       {name = "linkedin", url = "https://www.linkedin.com/in/hsinpinwen/"},
       {name = "email", url = "mailto:hwen15@jh.edu"},
