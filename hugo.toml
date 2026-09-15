@@ -6,6 +6,7 @@ theme = "gokarna"
 [params]
   avatarURL = "/images/profile.jpg"
   description = "ScM Biostatistics Candidate at Johns Hopkins Bloomberg School of Public Health"
+  customHeadHTML = '<link rel="icon" type="image/png" href="/favicon-32x32.png">'
   socialIcons = [
       {name = "linkedin", url = "https://www.linkedin.com/in/hsinpinwen/"},
       {name = "email", url = "mailto:hwen15@jh.edu"},
